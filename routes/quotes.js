@@ -4,7 +4,7 @@ import quotes from "../data/data.js";
 const router = express.Router(); // Initializing Router Instance
 
 // Routes
-router.get("/quotes/random", (req, res) => {
+router.get("/random", (req, res) => {
     res.send(quotes[Math.floor(Math.random() * quotes.length)]);
 });
 
