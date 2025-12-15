@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/styles.css" />
+        <title>Sopranos API</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>The Sopranos API</h1>
+            <h4>
+                A RESTful API for quotes from the greatest TV show of all time
+                (according to critics!)
+            </h4>
+
+            <h2>Available Endpoints</h2>
+        </div>
+
+        <div class="endpoint">
+            <h3>1. Get All Quotes</h3>
+            <p>Returns a list of all quotes. Optional filter by character.</p>
+            <code>GET /quotes</code>
+            <br /><br />
+            <code>GET /quotes?character=tony</code>
+        </div>
+
+        <div class="endpoint">
+            <h3>2. Get Random Quote</h3>
+            <p>Returns a single random quote.</p>
+            <code>GET /quotes/random</code>
+        </div>
+
+        <div class="endpoint">
+            <h3>3. Get All Quotes</h3>
+            <p>Returns a quote by its ID.</p>
+            <code>GET /quotes/:id</code>
+        </div>
+    </body>
+</html>
