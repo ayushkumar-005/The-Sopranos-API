@@ -4,7 +4,7 @@ A RESTful API serving quotes from "The Sopranos". Built with Node.js and Express
 
 **Live Demo: https://the-sopranos-api.vercel.app/**
 
-## 🚀 Features
+## Features
 
 -   **Random Quotes:** Get a random piece of wisdom from one of the wiseguys (kidding!).
 -   **Character Filtering:** Search for quotes by specific characters.
@@ -18,7 +18,7 @@ A RESTful API serving quotes from "The Sopranos". Built with Node.js and Express
 -   **Data:** JSON (In-memory)
 -   **Deployment:** Vercel
 
-## 📡 API Endpoints
+## API Endpoints
 
 | Method | Endpoint                 | Description                |
 | :----- | :----------------------- | :------------------------- |
