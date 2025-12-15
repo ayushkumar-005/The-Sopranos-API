@@ -1,4 +1,4 @@
-# The Sopranos API 🍝
+# The Sopranos API
 
 A RESTful API serving quotes from "The Sopranos". Built with Node.js and Express.
 
