@@ -5,6 +5,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 import notFound from "./middleware/notFound.js";
 import errorHandler from "./middleware/errorHandler.js";
+import connectDB from "./config/db.js";
 
 const app = express(); // Initializing App Object
 const port = process.env.PORT || 8000;
@@ -27,6 +28,8 @@ app.use(notFound);
 
 // Global Error Handler
 app.use(errorHandler);
+
+connectDB();
 
 // Starting Server
 app.listen(port, () => console.log(`Server is running on port ${port}`));
